@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+    background-image: url("../src/assets/image.jpg");
+    background-size: cover;
+    color: white;
+
+}
