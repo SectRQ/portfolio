@@ -30,7 +30,8 @@ export default {
 
 <style scoped>
 .card{
-  transition: transform .2s
+  transition: transform .2s;
+  border-radius: 0;
 }
 .card:hover{
   transform: scale(1.1)

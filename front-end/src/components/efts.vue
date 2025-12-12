@@ -12,7 +12,13 @@
         </button>
       </a>
 
-      <h1 class="py-5">Dark Tech studio</h1>
+      <h1 class="text-center">Dark Tech studio</h1>
+      <div class="text-center">
+        <img src="../assets/Afbeelding1.jpg">
+        <img src="../assets/efts_logo_v.2.png">
+        <img src="../assets/Afbeelding2.jpg">
+      </div>
+
       <p>
         Mijn project, genaamd "Echoes from the shadows" binnen de Dark Tech Studio ging over het ontwikkelen van een afluisterprototype dat bewustwording creëert over verborgen surveillance.
         Dit project heeft mij geholpen om zowel technisch als creatief verder te groeien. Hierbij heb ik gewerkt aan:
@@ -74,7 +80,9 @@ section{
   text-align: left;
   min-height: 100vh;
 }
+
 .btn{
-  margin: 1%;
+  margin: 0% 1% 5% 1%;
 }
+
 </style>

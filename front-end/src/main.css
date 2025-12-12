@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url("../src/assets/image.jpg");
+    background: url("../src/assets/image.jpg") fixed;
     background-size: cover;
     color: white;
 
