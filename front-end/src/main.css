@@ -1,7 +1,13 @@
-body{
-    background-color: black;
-    background: url("../src/assets/image.jpg") fixed;
-    background-size: cover;
-    color: white;
+:root {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --accent: #38bdf8;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+}
 
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-main);
+    font-family: 'Inter', 'Roboto', sans-serif;
 }
