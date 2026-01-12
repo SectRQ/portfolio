@@ -10,14 +10,14 @@
 
         <div class="col-lg-7 header-content p-5">
           <span class="badge mb-3">Software Engineering Student</span>
-          <h1 class="display-4 fw-bold mb-3">Hi, ik ben <span class="text-accent">Rachid Abainou</span></h1>
+          <h1 class="display-6 fw-bold mb-3">Hi, ik ben <span class="text-accent">Rachid Abainou</span></h1>
           <p class="lead mb-4">
             Aan de <strong>Hogeschool van Amsterdam</strong> werk ik aan het oplossen van complexe problemen.
             Ik combineer technische precisie met innovatieve ideeën om creatieve softwareoplossingen te bouwen.
           </p>
 
-          <div class="cta-buttons">
-            <router-link to="/allProjects" class="btn btn-accent btn-lg me-3">
+          <div>
+            <router-link to="/allProjects" class="btn btn-accent btn-lg">
               Bekijk mijn projecten
             </router-link>
           </div>
