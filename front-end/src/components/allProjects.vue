@@ -19,43 +19,9 @@
           </div>
         </div>
         <div class="col-md-4">
-          <a href="https://github.com/SectRQ/Project-Fasten-Your-Seatbelts">
-            <div class="card mb-4 box-shadow border-3">
-              <div class="btn-group nav-link">
-                <img class="card-img-top" src="../assets/logo-white.png" data-holder-rendered="true">
-                <div class="card-body bg-dark">
-                  <p class="card-text">Project Fasten Your Seatbelts — Een fullstack web applicatie
-                    gemaakt voor de reizigers van Corendon om een vakantie partner te
-                    vinden.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://github.com/SectRQ/Project-Agile-Development">
-            <div class="card mb-4 box-shadow border-3">
-              <div class="btn-group nav-link">
-                <img class="card-img-top" src="../assets/logo-HVA.png" data-holder-rendered="true">
-                <div class="card-body bg-dark">
-                  <p class="card-text">Project Agile Development— Een web
-                    applicatie geschikt voor gebruik tijdens de open
-                    dagen voor het HBO-ICT op de Hogeschool van Amsterdam.
-                  </p>
-                  <div class="d-flex justify-content-between align-items-center">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://github.com/SectRQ/Project-Enterprise-Web-Application">
-            <div class="card mb-4 box-shadow border-3">
-              <div class="btn-group nav-link">
+          <div class="card mb-4 box-shadow border-3">
+            <div class="btn-group nav-link">
+              <router-link to="/enterpriseWebApplication">
                 <img class="card-img-top" src="../assets/nav_icon.png" data-holder-rendered="true">
                 <div class="card-body bg-dark">
                   <p class="card-text">Project Enterprise Web Application — Een fullstack webapplicatie
@@ -64,9 +30,46 @@
                   <div class="d-flex justify-content-between align-items-center">
                   </div>
                 </div>
+              </router-link>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+
+            <div class="card mb-4 box-shadow border-3">
+              <div class="btn-group nav-link">
+                <router-link to="/agileDevelopment">
+                  <img class="card-img-top" src="../assets/logo-HVA.png" data-holder-rendered="true">
+                  <div class="card-body bg-dark">
+                    <p class="card-text">Project Agile Development— Een web
+                      applicatie geschikt voor gebruik tijdens de open
+                      dagen voor het HBO-ICT op de Hogeschool van Amsterdam.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </router-link>
               </div>
             </div>
-          </a>
+
+        </div>
+        <div class="col-md-4">
+
+            <div class="card mb-4 box-shadow border-3">
+              <div class="btn-group nav-link">
+                <router-link to="/fastenYourSeatbelts">
+                  <img class="card-img-top" src="../assets/logo-white.png" data-holder-rendered="true">
+                  <div class="card-body bg-dark">
+                    <p class="card-text">Project Fasten Your Seatbelts — Een fullstack web applicatie
+                      gemaakt voor de reizigers van Corendon om een vakantie partner te
+                      vinden.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                </router-link>
+              </div>
+            </div>
         </div>
       </div>
     </div>
